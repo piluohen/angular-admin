@@ -4,6 +4,7 @@ import { DemoRoutingModule } from './demo-routing.module';
 import { DemoComponent } from './demo.component';
 import { AngCountupComponent } from './ang-countup/ang-countup.component';
 import { AngPreviewComponent } from './ang-preview/ang-preview.component';
+import { AngScrollListComponent } from './ang-scroll-list/ang-scroll-list.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AngPreviewComponent } from './ang-preview/ang-preview.component';
   declarations: [
     DemoComponent,
     AngCountupComponent,
-    AngPreviewComponent
+    AngPreviewComponent,
+    AngScrollListComponent
   ],
   entryComponents: [DemoComponent]
 })
