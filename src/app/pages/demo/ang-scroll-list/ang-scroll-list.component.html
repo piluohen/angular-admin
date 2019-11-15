@@ -4,7 +4,7 @@
 </div>
 
 <div class="layout-content">
-  <ang-scroll-list [data]="list" [nzRenderItem]="nzRenderItem">
+  <ang-scroll-list [data]="list" [renderItem]="nzRenderItem">
     <ng-template #nzRenderItem let-item>
       <div class="list-item">
         <span>{{item.title}}</span>
